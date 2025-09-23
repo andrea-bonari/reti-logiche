@@ -50,6 +50,8 @@ Le proprietà dei due operatori $+$ e $*$ sono dedotte dai seguenti assiomi:
 >- Due espressioni booleane $E_{1}$ e $E_{2}$ sono equivalenti se e solo se sono riconducibili alla stessa funzione booleana.
 >
 >Ad un'espressione $E$ di $n$ variabili corrisponde un'unica funzione $f$ di $n$ variabili, e viceversa.
+>
+>Si ha che qualunque funzione logica può realizzarsi usando un insieme completo di operatori elementari.
 
 Data un'espressione di una funzione booleana l'algebra di commutazione permette di manipolarla per ottenere un'espressione equivalente, ma di forma diversa, eventualmente con caratteristiche, meglio rispondenti a particolari requisiti.
 
@@ -75,5 +77,4 @@ Si ha che l'applicazione delle trasformazioni algebriche non permette di identif
 >&= \cdots
 >\end{align*}$$
 >Questo teorema può essere utilizzato anche su espressioni Booleane.
-
 

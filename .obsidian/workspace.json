@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra di Boole/Algebra di Boole.md",
+                "file": "Algebra di Boole/Reti logiche/Sintetizzazione di reti combinatorie a due livelli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algebra di Boole"
+              "title": "Sintetizzazione di reti combinatorie a due livelli"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spazio n-dimensionale/Curve in uno spazio n-dimensionale.md",
+                "file": "Algebra di Boole/Reti logiche/Sintetizzazione di reti combinatorie a due livelli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Curve in uno spazio n-dimensionale"
+              "title": "Backlinks for Sintetizzazione di reti combinatorie a due livelli"
             }
           },
           {
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,8 +168,15 @@
   },
   "active": "799555588e076d40",
   "lastOpenFiles": [
-    "index.md",
     "Algebra di Boole/Algebra di Boole.md",
+    "Algebra di Boole/Reti logiche/Sintetizzazione di reti combinatorie a due livelli.md",
+    "Algebra di Boole/Reti logiche/Segnali binari.md",
+    "Algebra di Boole/Reti logiche",
+    "data/Pasted image 20250917145621.png",
+    "data/Pasted image 20250917145548.png",
+    "data/Pasted image 20250917145014.png",
+    "data",
+    "index.md",
     "temp/09-16.md",
     "Algebra di Boole",
     "temp",
@@ -195,8 +201,6 @@
     "Equazioni differenziali/EDO del secondo ordine/EDO del secondo ordine lineari non omogenee.md",
     "Sistemi differenziali lineari/Sistemi differenziali lineari.md",
     "Sistemi differenziali lineari/Sistemi differenziali lineari omogenei.md",
-    "Sistemi differenziali lineari/Sistemi differenziali lineari non omogenei.md",
-    "Funzioni a più variabili/Limiti e continuità di funzioni a più variabili.md",
     "data/Pasted image 20241216183056.png",
     "data/Pasted image 20241216183104.png",
     "data/Pasted image 20241216183045.png",
@@ -204,16 +208,11 @@
     "data/Pasted image 20241216183015.png",
     "data/Pasted image 20241216182939.png",
     "data/Pasted image 20241216182847.png",
-    "data/Pasted image 20241216182835.png",
-    "data/Pasted image 20241216182118.png",
-    "data/Pasted image 20241216180743.png",
     "Equazioni differenziali/Studio qualitativo",
     "Funzioni a più variabili/Calcolo integrale",
     "Funzioni a più variabili/Ottimizzazione",
     "Funzioni a più variabili/Calcolo differenziale",
     "Funzioni a più variabili",
-    "Serie di funzioni",
-    "Spazio n-dimensionale",
-    "Sistemi differenziali lineari"
+    "Serie di funzioni"
   ]
 }
