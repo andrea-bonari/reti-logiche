@@ -2,3 +2,11 @@ Il corso affronta il progetto di reti combinatorie introducendo la sintesi combi
 
 1. [[Introduzione al corso]]
 2. [[Algebra di Boole]]
+3. [[Segnali binari]]
+	1. [[Sintesi di reti combinatorie a due livelli]]
+	2. [[Logiche programmabili]]
+	3. [[Circuiti sequenziali]]
+		1. [[Sintesi sequenziale sincrona]]
+4. [[Aritmetica binaria]]
+	1. [[Numeri a virgola mobile]]
+5. [[Linguaggio VHDL]]
