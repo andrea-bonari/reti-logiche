@@ -9,8 +9,17 @@
 >Questo però introduce una maggiore latenza.
 >
 >![[Pasted image 20251217175653.png|center]]
-
->02047481
+>
+>L'euristica usata modella strutturalmente e comportamentalmente il circuito combinatorio usando un grafo orientato aciclico. Questo grafo si può modificare localmente, o globalmente, impattando l'area e le prestazioni.
+>
+>Le trasformazioni possono essere:
+>- sweep: sostituisce la variabile assegnata nel nodo a monte in tutti i nodi a valle
+>- eliminate: sostituisce l'espressione di un nodo in uno o più nodi a valle e elimina il nodo originale
+>- simplify: manipola l'espressione di un nodo per portarla su due livelli
+>- factor: fattorizza l'espressione di un nodo, ottenendo un'espressione su più livelli
+>- substitute: utilizza un nodo già presente nella rete per semplificare un altro nodo, sostituendo una sotto espressione
+>- extract: ricerca ed estrazione di un divisore comune a due nodi
+>- decompose: usando il teorema di Shannon estrae da un nodo $2^{k}$ nodi
 
 ### Mappe di Karnaugh
 >[!note]

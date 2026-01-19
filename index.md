@@ -7,6 +7,8 @@ Il corso affronta il progetto di reti combinatorie introducendo la sintesi combi
 	2. [[Logiche programmabili]]
 	3. [[Circuiti sequenziali]]
 		1. [[Sintesi sequenziale sincrona]]
+		2. [[FSM non completamente specificate]]
+		3. [[Registri]]
 4. [[Aritmetica binaria]]
 	1. [[Numeri a virgola mobile]]
 5. [[Linguaggio VHDL]]

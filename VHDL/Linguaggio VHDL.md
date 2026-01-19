@@ -138,3 +138,47 @@ instance_name: component_name
 >end generate;
 >``` 
 
+### Process
+>[!note]
+>Un process in VHDL è una procedura eseguita sequenzialmente, eseguita quando un valore nella sensitivity list cambia.
+>```vhdl
+>nome: process (in1, in2, ...)
+>	--- dichiarazioni di signal
+>begin
+>	--- statement valutato quando cambia la sensitivity list
+>end process;
+>```
+>
+>Si noti che non si possono usare segnali come se fosse variabili in maniera sequenziale.
+
+Dentro un process, si possono usare direttive come `wait for`, `wait until` o `after`, tuttavia queste non sono sintetizzabili.
+
+Inoltre, all'interno di un process si possono usare i classici statement if/else/elsif:
+
+```vhdl
+nome: process [(sensitivity_list)]
+begin
+	if condition_1 then
+		statement_1
+	elsif condition_2 then
+		statement_2
+	else
+		statement_n
+	end if;
+end process;
+```
+
+>[!example] Esempio
+>Un Flip Flop SR è implementabile come:
+>```vhdl
+>latch_sr: process(s,r)
+>begin
+>	if (s='1' and r='0') then
+>		q_internal <= '1';
+>	elsif (s='0' and r='1') then
+>		q_internal <= '0';
+>	elsif (s='1' and r='1') then
+>		q_internal <= 'X';
+>	end if;
+>end process;
+>```

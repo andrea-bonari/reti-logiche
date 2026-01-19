@@ -30,6 +30,14 @@ Per sintetizzare, si realizza la tabella degli stati, e si ottimizzano riducendo
 >
 >La scelta influisce su area e performance.
 
+### Codifica degli stati
+>[!note]
+>Il numero di possibili codifiche per $S$ stati è: $$\frac{(2^{\lceil\log_{2}|S|\rceil}-1)!}{(2^{\lceil\log_{2}|S|\rceil}-|S|)!\cdot\lceil\log_{2}|S|\rceil!}$$
+>Generalmente si usano le codifiche minime o one-hot, oppure delle euristiche specifiche.
+
+>[!tip] Codifica di hamming
+>Si dicono codifiche di hamming quelle che cerano di minimizzare la distanza di hamming tra stati futuri e adiacenti.
+
 ### Sintesi delle FSM completamente specificate
 >[!note]
 >Per ridurre il numero flip-flop, si può usare una codifica diversa degli stati, oppure ottimizzare il numero di stati.
