@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Reti logiche/Algebra di Boole.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Algebra di Boole"
             }
           }
         ]
@@ -173,11 +173,11 @@
   },
   "active": "211b4075f4840778",
   "lastOpenFiles": [
+    "index.md",
     "Aritmetica/Numeri a virgola mobile.md",
     "Aritmetica/Aritmetica binaria.md",
     "VHDL/Linguaggio VHDL.md",
     "VHDL/Process.md",
-    "index.md",
     "Reti logiche/Sintesi di reti combinatorie a due livelli.md",
     "Reti logiche/Segnali binari.md",
     "Reti logiche/Algebra di Boole.md",

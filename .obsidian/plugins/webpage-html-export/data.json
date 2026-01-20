@@ -9,7 +9,9 @@
     "inlineHTML": false,
     "exportPath": "/output",
     "filesToExport": [
-      "Algebra di Boole",
+      "Aritmetica",
+      "Reti logiche",
+      "VHDL",
       "index.md",
       "Introduzione al corso.md"
     ],
